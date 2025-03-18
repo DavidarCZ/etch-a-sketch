@@ -39,7 +39,6 @@ changeGrid.addEventListener("click",() =>{
     } else if (change > 100) {
         alert("Max: 100");
     } else if (Number.isInteger(change)) {
-        let text;
         createGrid(change);
     } else {
         alert("Give me a number");
