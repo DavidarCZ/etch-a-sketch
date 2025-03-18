@@ -55,6 +55,10 @@ h1 {
     margin: 50px;
 }
 
+.button-grid:hover {
+    background-color:rgb(143, 143, 143);
+}
+
 .right {
     display: flex;
     flex-direction: column;
