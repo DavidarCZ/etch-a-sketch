@@ -1,6 +1,32 @@
-.container > div {
-    margin: 5px;
-    height: 50px; 
-    width: 200px;
-    background-color: aqua;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.container{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid {
+    margin: 0px;
+    padding: 0px;
+    flex: 0 0 auto;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(228, 228, 230);
+    border: 1px solid black ;
+}
+
+.dark {
+    background-color: rgb(110, 110, 110);
 }
