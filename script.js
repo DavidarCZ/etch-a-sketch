@@ -5,6 +5,10 @@ function createGrid(size) {
 
     removeGrid()
 
+    let cellSize = `${600 / size}px`;
+    document.documentElement.style.setProperty("--cell-size", cellSize);
+
+
     for (let j = 0; j < size; j++) {
         let row = document.createElement("div")
         row.classList.add("grid-row");

@@ -35,8 +35,8 @@ h1 {
     margin: 0px;
     padding: 0px;
     flex: 0 0 auto;
-    width: 30px;
-    height: 30px;
+    width: var(--cell-size);
+    height: var(--cell-size);
     background-color: rgb(228, 228, 230);
     border: 1px solid black ;
 }
